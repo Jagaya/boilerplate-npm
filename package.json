@@ -1,9 +1,15 @@
-{	
-	"author" : "Shui",
-	
+{		
 	"name": "fcc-learn-npm-package-json",
+	"author": "Shui",
+  	"description": "A project that does something awesome",
+  	"keywords": ["freecodecamp", "glitch", "npm"],
+  	"license": "MIT",
+  	"version": "1.2.0",
+	"comment": "Dependencies versioning MAJOR.Minor.patch with ~allowing all patches and ^allowing all minor",
+	
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"moment": "~2.10.2"
 	},
 	"main": "server.js",
 	"scripts": {
